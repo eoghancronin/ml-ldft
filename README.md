@@ -6,16 +6,16 @@ This repository contains data, trained weights, and scripts related to the machi
 ## Contents
 
 1. **Data**
-   data_json: Folder containing all of the data in .json format
+   - `data_json`: Folder containing all of the data in a .json format
    - `exact_data`: Data computed via DMRG and reverse-engineering.
-   - `test_a_data`: Hxc energies and potentials computed by inputting the exact densities to the trained model.
+   - `test_a_data`: Exchange-correlation energies and potentials computed by inputting the exact densities to the trained model.
    - `test_b_data`: Converged Kohn-Sham results.
 
 3. **Weights**
    - `trained_weights`: Saved in a .h5 format.
 
 4. **Scripts**
-   - `tools.py`: Contains several functions useful for the other scripts.
+   - `tools.py`: Contains several functions that are useful for other scripts.
 
 5. **Jupyter Notebook**
    - `plotting.ipynb`: Reproduces figures 2,3 and 4 from the manuscript (Bethe-Ansatz LDA results yet to be added).
@@ -32,7 +32,7 @@ This repository contains data, trained weights, and scripts related to the machi
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/eoghancronin/ml-ldft.git
-    cd your-repository-name
+    cd ml-ldft
     ```
 
 2. **Create a new conda environment:**
