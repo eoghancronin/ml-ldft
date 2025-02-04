@@ -1,7 +1,7 @@
 # Machine-learning a semi-local exchange-correlation functional for the Hubbard model
 
 ## Description
-This repository contains data, trained weights, and scripts related to the machine-learning of the exchange-correlation functional for the one-dimensional Hubbard model as outlined in our paper [doi here].
+This repository contains data, trained weights, and scripts related to the machine-learning of the exchange-correlation functional for the one-dimensional Hubbard model as outlined in our paper https://arxiv.org/abs/2501.16893.
 
 ## Contents
 
@@ -59,4 +59,4 @@ This repository contains data, trained weights, and scripts related to the machi
 
 If you find this work helpful for your research, please consider citing:
 
-[doi here]
+https://arxiv.org/abs/2501.16893
